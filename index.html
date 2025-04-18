@@ -1,36 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diseño y Desarrollo Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-    <header>
+<body class="d-flex flex-column h-100">
+    <header class="text-white text-center py-4" style="background-color: #074173;">
         <h1>Diseño y Desarrollo Web</h1>
     </header>
-    <main>
-        <section>
-            <h2>Bibliografía</h2>
-            <p>NIEDERST ROBBINS, Jennifer. HTML5 Pocket Reference Quick, Comprehensive, Indispensable (Pocket Reference (O'Reilly)). 5ta. Ed. EE.UU.: O'Reilly Media, 2013. ISBN: 978-1449363352 </p>
-        </section>
-        <section>
-            <h2>Fechas de exámenes</h2>
-            <p>Primer Examen Parcial 21/04/2025</p>
-            <p>Segundo Examen Parcial 09/06/2025</p>
-        </section>
-        <section>
-            <h2>Actividades UVAs</h2>
-            <h4>UVA1</h4>
-            <ul>
-                <li><a href="https://elizabethcorrea13.github.io/Tp1/" target="_blank">Ejercicio 1</a></li>
-                <li><a href="https://elizabethcorrea13.github.io/tp2/" target="_blank">Ejercicio 2</a></li>
-                <li><a href="https://elizabethcorrea13.github.io/tp3/" target="_blank">Ejercicio 3</a></li>
-            </ul>
-        </section>
+    <main class="container py-3 flex-grow-1 d-flex align-items-center">
+        <div class="row w-100">
+            <div class="col-md-5 mb-3">
+                <section class="mb-3 rounded bg-light p-2">
+                    <h2 class="h4">Fechas de Exámenes</h2>
+                    <p><strong>Primer Examen Parcial:</strong> 21/04/2025</p>
+                    <p><strong>Segundo Examen Parcial:</strong> 09/06/2025</p>
+                </section>
+                <section class="mb-3 rounded bg-light p-3">
+                    <h2 class="h4">Bibliografía</h2>
+                    <p>NIEDERST ROBBINS, Jennifer. HTML5 Pocket Reference Quick, Comprehensive, Indispensable (Pocket Reference (O'Reilly)). 5ta. Ed. EE.UU.: O'Reilly Media, 2013. ISBN: 978-1449363352 </p>
+                </section>
+            </div>
+
+            <div class="col-md-7">
+                <section class="mb-3 rounded bg-light p-5">
+                    <h2 class="h4">Actividades UVAs</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="https://elizabethcorrea13.github.io/Tp1/" target="_blank">Ejercicio individual: HTML - Introducción 📝</a></li>
+                        <li><a href="https://elizabethcorrea13.github.io/tp2/" target="_blank">Ejercicio individual: HTML - Etiquetas 📝</a></li>
+                        <li><a href="https://elizabethcorrea13.github.io/tp3/" target="_blank">Ejercicio individual: Ejercicio integrador (Entrega obligatoria) 📝</a></li>
+                        <li><a href="https://elizabethcorrea13.github.io/tp4/" target="_blank">Ejercicio individual: Formato de texto 📝</a></li>
+                        <li><a href="https://elizabethcorrea13.github.io/tp5/" target="_blank">Ejercicio individual: Formato de cajas 📝</a></li>
+                        <li><a href="https://elizabethcorrea13.github.io/tp6/" target="_blank">Ejercicio individual: Unidades de medida 📝</a></li>
+                        <li><a href="https://elizabethcorrea13.github.io/tp7/" target="_blank">Ejercicio individual: Grid y Flexbox 📝</a></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
     </main>
-    <footer>
-        Derechos reservados.
+    <footer class="text-white text-center py-3 mt-auto" style="background-color: #074173;">
+        Curso: 16872 / Profesora: Patricia Litovicius
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
